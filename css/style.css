@@ -1,0 +1,56 @@
+body
+{
+font-family: "open_sansregular", Helvetica, Arial, sans-serif;
+margin:0;
+padding:0em;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.header{
+    background-image: linear-gradient(to right, rgb(56, 153, 170), rgb(70, 96, 211), rgb(211, 54, 231));
+    border-radius:1.5em;
+    /* border:2px black solid; */
+    padding:0.7em 0.7em;
+    margin-bottom:5px;
+}
+.right{
+    text-align:right;
+    vertical-align:middle;
+}
+.login_page{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(217, 233, 238), rgb(240, 110, 212));
+    margin: 1% 20%;
+    opacity: 0.8;
+    border-radius: 3em;
+    padding: 1% 5%;
+    color: rgb(33, 130, 214);
+}
+.about{
+    color: aliceblue;
+    text-align: justify;
+}
+.login-button{
+    background-image: radial-gradient(rgb(42, 143, 173), rgb(207, 75, 224));
+    color: white;
+}
+.signup-button{
+    background-image: radial-gradient(rgb(42, 143, 173), rgb(207, 75, 224));
+    color: white;
+}
+.image-bor{
+    border: thick solid #860566;
+    border-radius: 0.5em;
+    text-align: center;
+}
+figcaption{
+    background-image: linear-gradient(to bottom right, rgb(226, 207, 207), rgb(163, 6, 6));
+    color: aliceblue;
+    font-style: oblique;
+}
+.modal{
+    width: 50%;   
+}
+

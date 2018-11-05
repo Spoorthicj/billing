@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/events.js"></script>
+        <style>
+        .jambotron{
+            text-align: center;
+            background-color: grey;
+            padding: 2%
+        }
+        .col-3{
+            border: thin skyblue solid;
+            border-radius: 2%;
+            //width: 50%;
+            margin-top:2%;
+            text-align: center;
+        }
+        .panel{
+            background-color: aqua;
+            color:gray;
+        }
+        .panel-body{
+            background-color: aliceblue;
+            color: blue;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jambotron">
+                <h1>Fun with Jquery</h1>
+                <button class="panel-button" data-panelId="panel1">#btn1</button>
+                <button class="panel-button" data-panelId="panel2">#btn2</button>
+                <button class="panel-button" data-panelId="panel3">#btn3</button>
+                <button class="panel-button" data-panelId="panel4">#btn4</button>
+            </div>
+            
+            <div class="row">
+                <div  class="col-3">
+                    <div id="panel1" class="panel panel-primary">
+                        <div class="panel-heading">
+                            #Panel1
+                        </div>
+                        <div class="panel-body">
+                        contents
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-3">
+					<div id="panel2"  class="panel panel-primary">
+						<div class="panel-heading">
+							#Panel2
+						</div>
+						<div class="panel-body">
+							contents
+						</div>
+					</div>
+                </div>
+                <div  class="col-3">
+                    <div id="panel3" class="panel panel-primary">
+                        <div class="panel-heading">
+                        #Panel3                        
+                        </div>
+                        <div class="panel-body">
+                        contents
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div id="panel4" class="panel panel-primary">
+                        <div class="panel-heading">
+                            #Panel4
+                        </div>
+                        <div class="panel-body">
+                        contents
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </body> 
+</html>
